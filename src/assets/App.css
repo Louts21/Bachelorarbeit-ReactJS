@@ -1,0 +1,81 @@
+/* Default */
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+/* Footer.js */
+
+#footer {
+  background-color: yellowgreen;
+  padding: 1rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+#footerItems {
+  float: left;
+  margin-right: 1rem;
+  color: black;
+}
+
+/* Welcome.js */
+
+#welcomeText {
+  color: white;
+  font-size: 100px;
+  text-align: center;
+}
+
+/* Header.js */
+
+#header {
+  background-color: yellowgreen;
+  padding: 2rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.leftHeaderItems {
+  float: left;
+  margin-top: -0.75rem;
+  margin-right: 1rem;
+  color: black;
+}
+
+/* Data.js */
+
+.rightDataStuff {
+  float: right;
+  margin-right: 1rem;
+  color: white;
+}
+
+.dataItems {
+  display: block;
+  color: white;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 2rem;
+  overflow: hidden;
+  margin: 1rem;
+}
+
+.submitButton {
+  background-color: greenyellow;
+}
+
+/* NotFound.js */
+
+#notFound {
+  color: white;
+  font-size: 100px;
+  text-align: center;
+}
